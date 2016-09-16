@@ -13,7 +13,10 @@ namespace ModelValidation
         static void Main(string[] args)
         {
 
-            Validator();            
+            Validator();
+            //new FuncionAsArgumentUsingDeligate().Client();
+            //new FuncionAsArgumentUsingFunc().Calculate();
+            new FuncTest().Calculate();
         }      
 
         private static void Validator()
